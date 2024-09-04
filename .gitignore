@@ -1,0 +1,58 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the 'go build' and 'go run' commands
+/build
+bin/
+*.log
+
+# Testing and Coverage files
+*.coverprofile
+*.test
+
+# Go workspace file
+go.work
+
+# Dependency directories (vendor/)
+vendor/
+
+# Go module files
+go.sum
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+# JetBrains IDEs (e.g., GoLand)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS files
+.DS_Store
+
+# Linux Files
+*~
+
+# Node.js files (if you use it in some submodules or CI/CD pipeline)
+node_modules/
+
+# Go environment files
+.env
+
+# Logs
+*.log
+
+# Coverage files
+coverage.out
+coverage.html
