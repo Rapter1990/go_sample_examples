@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	// ------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Basic string creation
 	str := "Hello, Go!"
@@ -32,7 +32,7 @@ func main() {
 	lowerStr := strings.ToLower(str)
 	fmt.Println("Lowercase string:", lowerStr) // Output: hello, go!
 
-	// ------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// String Comparison
 	str1 := "Hello"
@@ -44,7 +44,7 @@ func main() {
 	// Compare strings
 	fmt.Println("str1 < str2:", str1 < str2) // Output: true (lexicographical comparison)
 
-	// ------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// String Splitting and Joining
 	strOneTwoThree := "one,two,three"
@@ -57,7 +57,7 @@ func main() {
 	joinedStr := strings.Join(parts, " | ")
 	fmt.Println("Joined string:", joinedStr) // Output: one | two | three
 
-	// ------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	strGo := "Hello, Go!"
 
@@ -72,7 +72,7 @@ func main() {
 	replacedStr := strings.ReplaceAll(strGo, "Go", "Golang")
 	fmt.Println("Replaced string:", replacedStr) // Output: Hello, Golang!
 
-	// ------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Rune Usage
 	strRuneUsage := "Hello, 世界" // "世界" is "world" in Chinese
@@ -93,7 +93,7 @@ func main() {
 	firstRune := []rune(strRuneUsage)[0]
 	fmt.Printf("First rune: %c\n", firstRune) // Output: H
 
-	// ------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Rune Conversion
 	// Convert a character to rune
@@ -104,7 +104,7 @@ func main() {
 	runeToStr := string(char)
 	fmt.Println("String from rune:", runeToStr) // Output: a
 
-	// ------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// String and Rune Encoding/Decoding
 	strEncodeDecode := "Hello, 🌏"
@@ -122,5 +122,7 @@ func main() {
 	for i, r := range str {
 		fmt.Printf("Index %d: %c (%X)\n", i, r, r)
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 }

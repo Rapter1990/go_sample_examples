@@ -107,7 +107,7 @@ func (e Eagle) HuntPrey(prey string) string {
 
 func main() {
 
-	// --------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Basic Interface Declaration
 
@@ -120,7 +120,7 @@ func main() {
 	// Call the Speak method
 	fmt.Println(speaker.Speak()) // Output: Woof!
 
-	// --------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Multiple Types Implementing the Same Interface
 
@@ -130,7 +130,7 @@ func main() {
 
 	fmt.Println(speaker2.Speak()) // Output: Meow!
 
-	// --------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Empty Interface (interface{})
 
@@ -139,7 +139,7 @@ func main() {
 	PrintValue("Hello, Go!") // Output: Hello, Go!
 	PrintValue(3.14)         // Output: 3.14
 
-	// --------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Type Assertion
 	// Type assertion is a way to extract the underlying value of an interface
@@ -147,7 +147,7 @@ func main() {
 	PrintValue1(42)           // Output: Integer value: 42
 	PrintValue1("Hello, Go!") // Output: Not an integer
 
-	// --------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Type Switch
 
@@ -155,7 +155,7 @@ func main() {
 	PrintValue("Hello, Go!") // Output: String value: Hello, Go!
 	PrintValue(3.14)         // Output: Float64 value: 3.140000
 
-	// --------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Interfaces with Multiple Methods
 
@@ -169,7 +169,7 @@ func main() {
 	fmt.Println(vehicle.Drive()) // Output: Driving the car
 	fmt.Println(vehicle.Horn())  // Output: Beep beep!
 
-	// --------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Interfaces with Multiple Methods
 
@@ -181,6 +181,6 @@ func main() {
 	fmt.Println(eagle.Hunt())             // Output: Hunting prey!
 	fmt.Println(eagle.HuntPrey("rabbit")) // Output: The eagle is hunting a rabbit!
 
-	// --------------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 }

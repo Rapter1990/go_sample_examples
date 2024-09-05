@@ -5,17 +5,26 @@ import (
 )
 
 func main() {
+
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// Arrays
 	var arr [5]int // Declares an array of 5 integers
 	arr[0] = 1     // Assigning a value to the first element
 	arr[1] = 2     // Assigning a value to the second element
 	fmt.Println(arr)
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// Array initialization with values
 	arr2 := [5]int{10, 20, 30, 40, 50}
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// Array with inferred length
 	arr3 := [...]string{"apple", "banana", "cherry"}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Slices
 	var slice []int          // Declares a slice of integers (initially nil)
@@ -37,11 +46,15 @@ func main() {
 	slice4[1] = 200
 	slice4[2] = 300
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// Range with array
 	fmt.Println("Array elements:")
 	for i, v := range arr2 {
 		fmt.Printf("Index %d: %d\n", i, v)
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Range with arr3
 	fmt.Println("\narr3 elements:")
@@ -49,11 +62,15 @@ func main() {
 		fmt.Printf("Index %d: %s\n", i, v)
 	}
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// Range with slice
 	fmt.Println("\nSlice elements:")
 	for i, v := range slice2 {
 		fmt.Printf("Index %d: %s\n", i, v)
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Range to sum elements of an array
 	sum := 0
@@ -62,11 +79,15 @@ func main() {
 	}
 	fmt.Println("\nSum of array elements:", sum)
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// Range to modify slice elements
 	for i := range slice4 {
 		slice4[i] *= 2
 	}
 	fmt.Println("\nModified slice4 elements:", slice4)
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Map examples
 	// Declare and initialize a map
@@ -85,11 +106,15 @@ func main() {
 	// Delete a key-value pair
 	delete(m, "cherry")
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// Iterate over the map using range
 	fmt.Println("\nMap elements:")
 	for k, v := range m {
 		fmt.Printf("Key: %s, Value: %d\n", k, v)
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Accessing a value for a specific key
 	if value, ok := m["apple"]; ok {
@@ -97,5 +122,7 @@ func main() {
 	} else {
 		fmt.Println("\n'apple' not found in the map")
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 }

@@ -5,10 +5,15 @@ import (
 )
 
 func main() {
+
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// For loop - standard for loop
 	for i := 0; i < 5; i++ {
 		fmt.Println("For loop iteration:", i)
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// For loop as a while loop
 	j := 0
@@ -16,6 +21,8 @@ func main() {
 		fmt.Println("While loop iteration:", j)
 		j++
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Infinite loop with break
 	k := 0
@@ -28,6 +35,8 @@ func main() {
 		k++
 	}
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// If-else statement
 	num := 7
 	if num%2 == 0 {
@@ -36,12 +45,16 @@ func main() {
 		fmt.Println(num, "is odd")
 	}
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// If with initialization statement
 	if n := 10; n%2 == 0 {
 		fmt.Println(n, "is even")
 	} else {
 		fmt.Println(n, "is odd")
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Nested if-else
 	age := 25
@@ -54,6 +67,8 @@ func main() {
 	} else {
 		fmt.Println("Adult")
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Switch statement
 	day := "Tuesday"
@@ -68,6 +83,8 @@ func main() {
 		fmt.Println("Today is another day")
 	}
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// Switch with multiple cases
 	letter := 'a'
 	switch letter {
@@ -76,6 +93,8 @@ func main() {
 	default:
 		fmt.Println("The letter", string(letter), "is a consonant")
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Switch without an expression (alternative to if-else)
 	score := 85
@@ -89,4 +108,7 @@ func main() {
 	default:
 		fmt.Println("Grade: F")
 	}
+
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 }

@@ -17,6 +17,8 @@ const (
 
 func main() {
 
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 	// Integer variables
 	var intVar int = 10
 	var intAuto = 20 // Type inference
@@ -64,4 +66,7 @@ func main() {
 	fmt.Println("Red:", Red)
 	fmt.Println("Green:", Green)
 	fmt.Println("Blue:", Blue)
+
+	fmt.Println("-----------------------------------------------------------------------------------")
+
 }

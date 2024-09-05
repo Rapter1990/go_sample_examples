@@ -37,7 +37,7 @@ func addEntry(m *map[string]int, key string, value int) {
 
 func main() {
 
-	// --------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Example with value
 	x := 5
@@ -51,7 +51,7 @@ func main() {
 	zeroPtr(&y)
 	fmt.Println("After zeroPtr:", y) // Output: After zeroPtr: 0
 
-	// --------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Create an instance of Person
 	person := Person{Name: "Alice", Age: 30}
@@ -65,7 +65,7 @@ func main() {
 	// Print the updated Person
 	fmt.Println("Updated person:", person) // Output: {Alice 35}
 
-	// --------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Declare a slice
 	numbers := []int{1, 2, 3}
@@ -79,7 +79,7 @@ func main() {
 	// Print the updated slice
 	fmt.Println("Updated slice:", numbers) // Output: [1 2 3 4]
 
-	// --------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Declare a map
 	data := make(map[string]int)
@@ -94,7 +94,7 @@ func main() {
 	// Print the updated map
 	fmt.Println("Updated map:", data) // Output: map[a:1 b:2]
 
-	// --------------------------------------------------------------------------------------------
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 	// Declare an integer variable
 	a := 10
@@ -127,5 +127,7 @@ func main() {
 	fmt.Println("Value of a:", a)                // Output: 30
 	fmt.Println("Value pointed to by p:", *p)    // Output: 30
 	fmt.Println("Value pointed to by pp:", **pp) // Output: 30
+
+	fmt.Println("-----------------------------------------------------------------------------------")
 
 }
