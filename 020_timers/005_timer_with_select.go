@@ -9,7 +9,7 @@ func main() {
 
 	// Timer with Select ( Use select to handle timers alongside other concurrent events )
 	// You can use timers within a select statement to wait for multiple events simultaneously,
-	// including the timer firin
+	// including the timer firing
 
 	timer1 := time.NewTimer(2 * time.Second) // create timer in 2 seconds
 	timer2 := time.NewTimer(4 * time.Second) // create timer in 4 seconds
