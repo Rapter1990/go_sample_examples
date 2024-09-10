@@ -46,6 +46,11 @@ Examples Summary
       <td>Demonstrates variable declaration, initialization, and types.</td>
       <td><a href="/002_variables">002_variables</a></td>
   </tr>
+  <tr>
+      <td>Control Flow</td>
+      <td>Shows usage of for loops, while loops, if-else statements, and switch statements.</td>
+      <td><a href="/003_for_while_if_else_switch">003_for_while_if_else_switch</a></td>
+  </tr>
 </table>
 
 
