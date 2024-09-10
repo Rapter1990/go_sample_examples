@@ -97,7 +97,7 @@ Examples Summary
 ### Technologies
 
 ---
-- Go 1.19
+- Go 1.23.0
 
 
 ### Prerequisites
