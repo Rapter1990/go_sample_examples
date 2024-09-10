@@ -51,6 +51,11 @@ Examples Summary
       <td>Shows usage of for loops, while loops, if-else statements, and switch statements.</td>
       <td><a href="/003_for_while_if_else_switch">003_for_while_if_else_switch</a></td>
   </tr>
+  <tr>
+      <td>Array, Slice, Range, Map</td>
+      <td>Demonstrates array and slice operations, range iteration, and map manipulation.</td>
+      <td><a href="/004_array_slice_range_map">004_array_slice_range_map</a></td>
+  </tr>
 </table>
 
 
