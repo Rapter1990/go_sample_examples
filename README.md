@@ -61,6 +61,11 @@ Examples Summary
       <td>Illustrates basic function usage, variadic functions, closures, and recursion.</td>
       <td><a href="/005_function">005_function</a></td>
   </tr>
+  <tr>
+      <td>Pointers</td>
+      <td>Shows how to use pointers to modify values, structs, slices, and maps. Includes pointer-to-pointer operations.</td>
+      <td><a href="/006_pointer">006_pointer</a></td>
+  </tr>
 </table>
 
 
