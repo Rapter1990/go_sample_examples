@@ -1,4 +1,4 @@
-# Case Study - Go Sample Examples
+# Go Sample Examples
 
 <p align="center">
     <img src="images/golang.png" alt="Main Information" width="600" height="400">
@@ -14,9 +14,17 @@
       <li>Examples of basic Go data structures, functions, and interfaces.</li>
       <li>Web server setup using Go's standard library for HTTP handling.</li>
       <li>Concurrency examples using goroutines, channels, and the Go scheduler.</li>
+      <li>File handling operations like reading from and writing to files.</li>
+      <li>Working with arrays, slices, and maps to demonstrate Go's powerful collection types.</li>
+      <li>JSON encoding and decoding examples, including working with custom data structures.</li>
+      <li>Error handling following Go idioms to demonstrate best practices for robust programs.</li>
+      <li>Usage of Go's testing framework to implement unit and integration tests.</li>
+      <li>Practical examples of using Go's `net/http` package for building RESTful web services.</li>
+      <li>Basic data parsing, string manipulation, arithmetic operations, and JSON handling in Go.</li>
     </ul>
   </li>
 </ul>
+
 
 ### Explore Go Sample Examples
 
