@@ -108,16 +108,6 @@ Ensure Go is installed on your system
 ```
 
 
-### Running Examples
-
-Clone the repository and navigate to the example you'd like to run. For example, to run the `main.go` example underneath `001_hello_world`:
-
-```sh
-$ cd go_sample_examples
-$ cd 001_hello_world
-$ go run main.go
-```
-
 ### Contributors
 
 - [Sercan Noyan Germiyanoğlu](https://github.com/Rapter1990)
