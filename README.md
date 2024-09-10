@@ -34,62 +34,62 @@ Examples Summary
   <tr>
       <th>Example</th>
       <th>Description</th>
-      <th>File</th>
+      <th>Link</th>
   </tr>
   <tr>
       <td>Hello World</td>
       <td>Basic example of printing "Hello, World!" to the console.</td>
-      <td>001_hello_world/main.go</td>
+      <td><a href="/001_hello_world">001_hello_world</a></td>
   </tr>
   <tr>
       <td>Variables & Types</td>
       <td>Demonstrates variable declaration, initialization, and types.</td>
-      <td>002_variables_types/main.go</td>
+      <td><a href="/002_variables_types">002_variables_types</a></td>
   </tr>
   <tr>
       <td>Constants</td>
       <td>Working with constants and iota enumerations.</td>
-      <td>003_constants/main.go</td>
+      <td><a href="/003_constants">003_constants</a></td>
   </tr>
   <tr>
       <td>Control Flow</td>
       <td>Examples of conditional statements and loops in Go.</td>
-      <td>004_control_flow/main.go</td>
+      <td><a href="/004_control_flow">004_control_flow</a></td>
   </tr>
   <tr>
       <td>Arrays & Slices</td>
       <td>Working with arrays, slices, and their manipulation.</td>
-      <td>005_arrays_slices/main.go</td>
+      <td><a href="/005_arrays_slices">005_arrays_slices</a></td>
   </tr>
   <tr>
       <td>Maps</td>
       <td>Demonstrates the usage of maps (key-value pairs) in Go.</td>
-      <td>006_maps/main.go</td>
+      <td><a href="/006_maps">006_maps</a></td>
   </tr>
   <tr>
       <td>Structs</td>
       <td>How to define and use structs to represent complex data.</td>
-      <td>007_structs/main.go</td>
+      <td><a href="/007_structs">007_structs</a></td>
   </tr>
   <tr>
       <td>Functions</td>
       <td>Function declaration, recursion, and first-class functions.</td>
-      <td>008_functions/main.go</td>
+      <td><a href="/008_functions">008_functions</a></td>
   </tr>
   <tr>
       <td>Methods & Interfaces</td>
       <td>Defining methods and working with interfaces.</td>
-      <td>009_methods_interfaces/main.go</td>
+      <td><a href="/009_methods_interfaces">009_methods_interfaces</a></td>
   </tr>
   <tr>
       <td>Concurrency</td>
       <td>Examples of Go's concurrency model with goroutines and channels.</td>
-      <td>010_concurrency/main.go</td>
+      <td><a href="/010_concurrency">010_concurrency</a></td>
   </tr>
   <tr>
       <td>Error Handling</td>
       <td>Demonstrating idiomatic Go error handling.</td>
-      <td>011_error_handling/main.go</td>
+      <td><a href="/011_error_handling">011_error_handling</a></td>
   </tr>
 </table>
 
