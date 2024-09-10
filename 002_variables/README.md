@@ -1,7 +1,3 @@
-Certainly! Here's a revised `README.md` for the "Variables" example based on the provided Go code:
-
----
-
 # Go Sample Example - Variables
 
 This repository contains a Go (Golang) program that demonstrates the use of variables, constants, and enumerations in Go. The example showcases how to declare and use different types of variables, constants, and enums in Go.

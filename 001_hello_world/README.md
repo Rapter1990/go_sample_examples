@@ -1,4 +1,3 @@
-
 # Go Sample Example - Hello World
 
 This repository contains a simple Go (Golang) program that prints "Merhaba Dünya!" (Hello World!) to the console. It serves as an introductory example for Go, showcasing basic syntax and the use of the `fmt` package for output.
