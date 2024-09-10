@@ -56,6 +56,11 @@ Examples Summary
       <td>Demonstrates array and slice operations, range iteration, and map manipulation.</td>
       <td><a href="/004_array_slice_range_map">004_array_slice_range_map</a></td>
   </tr>
+  <tr>
+      <td>Functions</td>
+      <td>Illustrates basic function usage, variadic functions, closures, and recursion.</td>
+      <td><a href="/005_function">005_function</a></td>
+  </tr>
 </table>
 
 
