@@ -71,6 +71,11 @@ Examples Summary
       <td>Explains how to manipulate strings and runes, including encoding, slicing, and comparing.</td>
       <td><a href="/007_strings_runes">007_strings_runes</a></td>
   </tr>
+  <tr>
+      <td>Structs</td>
+      <td>Demonstrates struct declaration, methods, embedded structs, JSON tags, and more.</td>
+      <td><a href="/008_structs">008_structs</a></td>
+  </tr>
 </table>
 
 
