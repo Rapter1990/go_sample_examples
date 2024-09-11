@@ -86,6 +86,11 @@ Examples Summary
       <td>Shows basic error creation, custom error types, error wrapping, unwrapping, and checking for specific errors.</td>
       <td><a href="/010_error">010_error</a></td>
   </tr>
+  <tr>
+      <td>Goroutines & Channels</td>
+      <td>Demonstrates using Goroutines for concurrency, WaitGroups for synchronization, channels for communication, and mutex for safe access to shared data.</td>
+      <td><a href="/011_goroutine_channel">011_goroutine_channel</a></td>
+  </tr>****
 </table>
 
 
