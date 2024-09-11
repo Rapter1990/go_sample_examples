@@ -96,6 +96,11 @@ Examples Summary
       <td>Shows how to use buffered channels, select statements, and bytes.Buffer, along with a custom buffer implementation.</td>
       <td><a href="/012_buffering">012_buffering</a></td>
   </tr>
+  <tr>
+      <td>Channel Synchronization</td>
+      <td>Demonstrates different ways of using channels for synchronization, including WaitGroups, one-way channels, and fan-out/fan-in patterns.</td>
+      <td><a href="/013_channel_synchronization">013_channel_synchronization</a></td>
+  </tr>
 </table>
 
 
