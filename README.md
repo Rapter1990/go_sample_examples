@@ -66,6 +66,11 @@ Examples Summary
       <td>Shows how to use pointers to modify values, structs, slices, and maps. Includes pointer-to-pointer operations.</td>
       <td><a href="/006_pointer">006_pointer</a></td>
   </tr>
+  <tr>
+      <td>Strings & Runes</td>
+      <td>Explains how to manipulate strings and runes, including encoding, slicing, and comparing.</td>
+      <td><a href="/007_strings_runes">007_strings_runes</a></td>
+  </tr>
 </table>
 
 
