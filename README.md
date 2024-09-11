@@ -81,6 +81,11 @@ Examples Summary
       <td>Covers defining and implementing interfaces, type assertions, type switches, and using methods with multiple interfaces.</td>
       <td><a href="/009_interfaces">009_interfaces</a></td>
   </tr>
+  <tr>
+      <td>Error Handling</td>
+      <td>Shows basic error creation, custom error types, error wrapping, unwrapping, and checking for specific errors.</td>
+      <td><a href="/010_error">010_error</a></td>
+  </tr>
 </table>
 
 
