@@ -90,7 +90,12 @@ Examples Summary
       <td>Goroutines & Channels</td>
       <td>Demonstrates using Goroutines for concurrency, WaitGroups for synchronization, channels for communication, and mutex for safe access to shared data.</td>
       <td><a href="/011_goroutine_channel">011_goroutine_channel</a></td>
-  </tr>****
+  </tr>
+  <tr>
+      <td>Buffering</td>
+      <td>Shows how to use buffered channels, select statements, and bytes.Buffer, along with a custom buffer implementation.</td>
+      <td><a href="/012_buffering">012_buffering</a></td>
+  </tr>
 </table>
 
 
