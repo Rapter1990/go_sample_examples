@@ -101,6 +101,11 @@ Examples Summary
       <td>Demonstrates different ways of using channels for synchronization, including WaitGroups, one-way channels, and fan-out/fan-in patterns.</td>
       <td><a href="/013_channel_synchronization">013_channel_synchronization</a></td>
   </tr>
+  <tr>
+      <td>Channel Directions</td>
+      <td>Shows how to use directional channels (send-only and receive-only) in Go, with examples including ping-pong, pipelining, and buffered channels.</td>
+      <td><a href="/014_channel_directions">014_channel_directions</a></td>
+  </tr>
 </table>
 
 
