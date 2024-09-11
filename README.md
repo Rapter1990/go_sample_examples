@@ -76,6 +76,11 @@ Examples Summary
       <td>Demonstrates struct declaration, methods, embedded structs, JSON tags, and more.</td>
       <td><a href="/008_structs">008_structs</a></td>
   </tr>
+  <tr>
+      <td>Interfaces</td>
+      <td>Covers defining and implementing interfaces, type assertions, type switches, and using methods with multiple interfaces.</td>
+      <td><a href="/009_interfaces">009_interfaces</a></td>
+  </tr>
 </table>
 
 
