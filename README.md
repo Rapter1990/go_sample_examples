@@ -142,6 +142,19 @@ Examples Summary
     <td>Panic When Closing an Already Closed Channel</td>
     <td><a href="/018_closing_channel/05_panic_when_closing_an_already_closed_channel">05_panic_when_closing_an_already_closed_channel</a></td>
   </tr>
+  <tr>
+    <td rowspan="3">Range Over Channels</td>
+    <td>Basic Example with Range Over Channel</td>
+    <td><a href="/019_range_over_channel/001_basic_example_range_over_channel/001_basic_example_range_over_channel.go">001_basic_example_range_over_channel</a></td>
+  </tr>
+  <tr>
+    <td>Multiple Goroutines Sending to a Channel</td>
+    <td><a href="/019_range_over_channel/002_multiple_goroutines_sending_to_a_channel/002_multiple_goroutines_sending_to_a_channel.go">002_multiple_goroutines_sending_to_a_channel</a></td>
+  </tr>
+  <tr>
+    <td>Buffered Channels with Range</td>
+    <td><a href="/019_range_over_channel/003_buffered_channels_with_range/003_buffered_channels_with_range.go">003_buffered_channels_with_range</a></td>
+  </tr>
 </table>
 
 
