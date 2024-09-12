@@ -116,6 +116,11 @@ Examples Summary
       <td>Illustrates how to use timeouts with Goroutines and channels to control the execution flow.</td>
       <td><a href="/016_timeouts">016_timeouts</a></td>
   </tr>
+  <tr>
+      <td>Channel Non-Blocking</td>
+      <td>Demonstrates non-blocking operations on channels using the select statement.</td>
+      <td><a href="/017_channel_non_blocking">017_channel_non_blocking</a></td>
+  </tr>
 </table>
 
 
