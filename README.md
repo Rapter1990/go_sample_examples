@@ -106,6 +106,11 @@ Examples Summary
       <td>Shows how to use directional channels (send-only and receive-only) in Go, with examples including ping-pong, pipelining, and buffered channels.</td>
       <td><a href="/014_channel_directions">014_channel_directions</a></td>
   </tr>
+  <tr>
+      <td>Channel Select</td>
+      <td>Demonstrates the use of select statement with multiple channels to handle concurrent events.</td>
+      <td><a href="/015_channel_select">015_channel_select</a></td>
+  </tr>
 </table>
 
 
