@@ -121,6 +121,27 @@ Examples Summary
       <td>Demonstrates non-blocking operations on channels using the select statement.</td>
       <td><a href="/017_channel_non_blocking">017_channel_non_blocking</a></td>
   </tr>
+  <tr>
+    <td rowspan="5">Channel Closing Examples</td>
+    <td>Basic Channel Closing</td>
+    <td><a href="/018_closing_channel/01_basic_channel_closing">01_basic_channel_closing</a></td>
+  </tr>
+  <tr>
+    <td>Detecting Closed Channel</td>
+    <td><a href="/018_closing_channel/02_detecting_closed_channel">02_detecting_closed_channel</a></td>
+  </tr>
+  <tr>
+    <td>Closing Channels in Multiple Goroutines</td>
+    <td><a href="/018_closing_channel/03_closing_channels_in_multiple_goroutines">03_closing_channels_in_multiple_goroutines</a></td>
+  </tr>
+  <tr>
+    <td>Sending a Signal with a Closed Channel</td>
+    <td><a href="/018_closing_channel/04_sending_a_signal_with_a_closed_channel">04_sending_a_signal_with_a_closed_channel</a></td>
+  </tr>
+  <tr>
+    <td>Panic When Closing an Already Closed Channel</td>
+    <td><a href="/018_closing_channel/05_panic_when_closing_an_already_closed_channel">05_panic_when_closing_an_already_closed_channel</a></td>
+  </tr>
 </table>
 
 
