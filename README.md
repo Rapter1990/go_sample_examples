@@ -111,6 +111,11 @@ Examples Summary
       <td>Demonstrates the use of select statement with multiple channels to handle concurrent events.</td>
       <td><a href="/015_channel_select">015_channel_select</a></td>
   </tr>
+  <tr>
+      <td>Timeouts</td>
+      <td>Illustrates how to use timeouts with Goroutines and channels to control the execution flow.</td>
+      <td><a href="/016_timeouts">016_timeouts</a></td>
+  </tr>
 </table>
 
 
