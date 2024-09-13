@@ -142,56 +142,69 @@ Examples Summary
   <tr>
       <td rowspan="5">18</td>
       <td>Basic Channel Closing</td>
+      <td>Shows how to close a channel and handle its closure properly.</td>
       <td><a href="/018_closing_channel/01_basic_channel_closing">01_basic_channel_closing</a></td>
   </tr>
   <tr>
       <td>Detecting Closed Channel</td>
+      <td>Explains how to detect if a channel has been closed and how to handle it.</td>
       <td><a href="/018_closing_channel/02_detecting_closed_channel">02_detecting_closed_channel</a></td>
   </tr>
   <tr>
       <td>Closing Channels in Multiple Goroutines</td>
+      <td>Demonstrates how to safely close channels when multiple Goroutines are involved.</td>
       <td><a href="/018_closing_channel/03_closing_channels_in_multiple_goroutines">03_closing_channels_in_multiple_goroutines</a></td>
   </tr>
   <tr>
       <td>Sending a Signal with a Closed Channel</td>
+      <td>Shows the behavior of sending signals through a closed channel and how to manage it.</td>
       <td><a href="/018_closing_channel/04_sending_a_signal_with_a_closed_channel">04_sending_a_signal_with_a_closed_channel</a></td>
   </tr>
   <tr>
       <td>Panic When Closing an Already Closed Channel</td>
+      <td>Explains what happens when you attempt to close an already closed channel and how to handle it.</td>
       <td><a href="/018_closing_channel/05_panic_when_closing_an_already_closed_channel">05_panic_when_closing_an_already_closed_channel</a></td>
   </tr>
   <tr>
       <td rowspan="3">19</td>
       <td>Basic Example with Range Over Channel</td>
+      <td>Shows how to use the range keyword to iterate over values received from a channel.</td>
       <td><a href="/019_range_over_channel/001_basic_example_range_over_channel">001_basic_example_range_over_channel</a></td>
   </tr>
   <tr>
       <td>Multiple Goroutines Sending to a Channel</td>
+      <td>Demonstrates how multiple Goroutines can send data to a single channel and how to handle it.</td>
       <td><a href="/019_range_over_channel/002_multiple_goroutines_sending_to_a_channel">002_multiple_goroutines_sending_to_a_channel</a></td>
   </tr>
   <tr>
       <td>Buffered Channels with Range</td>
+      <td>Shows how to use buffered channels in conjunction with range to manage concurrent operations.</td>
       <td><a href="/019_range_over_channel/003_buffered_channels_with_range">003_buffered_channels_with_range</a></td>
   </tr>
   <tr>
       <td rowspan="5">20</td>
       <td>Simple Timer</td>
+      <td>Demonstrates how to create and use a basic timer in Go.</td>
       <td><a href="/020_timers/001_simple_timer">001_simple_timer</a></td>
   </tr>
   <tr>
       <td>Stop Timer</td>
+      <td>Shows how to stop a timer before it triggers.</td>
       <td><a href="/020_timers/002_stop_timer">002_stop_timer</a></td>
   </tr>
   <tr>
       <td>Reset Timer</td>
+      <td>Explains how to reset a timer to its initial state.</td>
       <td><a href="/020_timers/003_reset_timer">003_reset_timer</a></td>
   </tr>
   <tr>
       <td>Using time.After</td>
+      <td>Demonstrates how to use the time.After function to create timers.</td>
       <td><a href="/020_timers/004_using_time_after">004_using_time_after</a></td>
   </tr>
   <tr>
       <td>Timer with Select</td>
+      <td>Shows how to use timers with the select statement for time-based control flow.</td>
       <td><a href="/020_timers/005_timer_with_select">005_timer_with_select</a></td>
   </tr>
 </table>
