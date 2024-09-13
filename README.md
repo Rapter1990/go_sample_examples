@@ -32,151 +32,170 @@ Examples Summary
 
 <table>
   <tr>
+      <th>ID</th>
       <th>Example</th>
       <th>Description</th>
       <th>Link</th>
   </tr>
   <tr>
+      <td>1</td>
       <td>Hello World</td>
       <td>Basic example of printing "Hello, World!" to the console.</td>
       <td><a href="/001_hello_world">001_hello_world</a></td>
   </tr>
   <tr>
+      <td>2</td>
       <td>Variables & Types</td>
       <td>Demonstrates variable declaration, initialization, and types.</td>
       <td><a href="/002_variables">002_variables</a></td>
   </tr>
   <tr>
+      <td>3</td>
       <td>Control Flow</td>
       <td>Shows usage of for loops, while loops, if-else statements, and switch statements.</td>
       <td><a href="/003_for_while_if_else_switch">003_for_while_if_else_switch</a></td>
   </tr>
   <tr>
+      <td>4</td>
       <td>Array, Slice, Range, Map</td>
       <td>Demonstrates array and slice operations, range iteration, and map manipulation.</td>
       <td><a href="/004_array_slice_range_map">004_array_slice_range_map</a></td>
   </tr>
   <tr>
+      <td>5</td>
       <td>Functions</td>
       <td>Illustrates basic function usage, variadic functions, closures, and recursion.</td>
       <td><a href="/005_function">005_function</a></td>
   </tr>
   <tr>
+      <td>6</td>
       <td>Pointers</td>
       <td>Shows how to use pointers to modify values, structs, slices, and maps. Includes pointer-to-pointer operations.</td>
       <td><a href="/006_pointer">006_pointer</a></td>
   </tr>
   <tr>
+      <td>7</td>
       <td>Strings & Runes</td>
       <td>Explains how to manipulate strings and runes, including encoding, slicing, and comparing.</td>
       <td><a href="/007_strings_runes">007_strings_runes</a></td>
   </tr>
   <tr>
+      <td>8</td>
       <td>Structs</td>
       <td>Demonstrates struct declaration, methods, embedded structs, JSON tags, and more.</td>
       <td><a href="/008_structs">008_structs</a></td>
   </tr>
   <tr>
+      <td>9</td>
       <td>Interfaces</td>
       <td>Covers defining and implementing interfaces, type assertions, type switches, and using methods with multiple interfaces.</td>
       <td><a href="/009_interfaces">009_interfaces</a></td>
   </tr>
   <tr>
+      <td>10</td>
       <td>Error Handling</td>
       <td>Shows basic error creation, custom error types, error wrapping, unwrapping, and checking for specific errors.</td>
       <td><a href="/010_error">010_error</a></td>
   </tr>
   <tr>
+      <td>11</td>
       <td>Goroutines & Channels</td>
       <td>Demonstrates using Goroutines for concurrency, WaitGroups for synchronization, channels for communication, and mutex for safe access to shared data.</td>
       <td><a href="/011_goroutine_channel">011_goroutine_channel</a></td>
   </tr>
   <tr>
+      <td>12</td>
       <td>Buffering</td>
       <td>Shows how to use buffered channels, select statements, and bytes.Buffer, along with a custom buffer implementation.</td>
       <td><a href="/012_buffering">012_buffering</a></td>
   </tr>
   <tr>
+      <td>13</td>
       <td>Channel Synchronization</td>
       <td>Demonstrates different ways of using channels for synchronization, including WaitGroups, one-way channels, and fan-out/fan-in patterns.</td>
       <td><a href="/013_channel_synchronization">013_channel_synchronization</a></td>
   </tr>
   <tr>
+      <td>14</td>
       <td>Channel Directions</td>
       <td>Shows how to use directional channels (send-only and receive-only) in Go, with examples including ping-pong, pipelining, and buffered channels.</td>
       <td><a href="/014_channel_directions">014_channel_directions</a></td>
   </tr>
   <tr>
+      <td>15</td>
       <td>Channel Select</td>
       <td>Demonstrates the use of select statement with multiple channels to handle concurrent events.</td>
       <td><a href="/015_channel_select">015_channel_select</a></td>
   </tr>
   <tr>
+      <td>16</td>
       <td>Timeouts</td>
       <td>Illustrates how to use timeouts with Goroutines and channels to control the execution flow.</td>
       <td><a href="/016_timeouts">016_timeouts</a></td>
   </tr>
   <tr>
+      <td>17</td>
       <td>Channel Non-Blocking</td>
       <td>Demonstrates non-blocking operations on channels using the select statement.</td>
       <td><a href="/017_channel_non_blocking">017_channel_non_blocking</a></td>
   </tr>
   <tr>
-    <td rowspan="5">Channel Closing Examples</td>
-    <td>Basic Channel Closing</td>
-    <td><a href="/018_closing_channel/01_basic_channel_closing">01_basic_channel_closing</a></td>
+      <td rowspan="5">18</td>
+      <td>Basic Channel Closing</td>
+      <td><a href="/018_closing_channel/01_basic_channel_closing">01_basic_channel_closing</a></td>
   </tr>
   <tr>
-    <td>Detecting Closed Channel</td>
-    <td><a href="/018_closing_channel/02_detecting_closed_channel">02_detecting_closed_channel</a></td>
+      <td>Detecting Closed Channel</td>
+      <td><a href="/018_closing_channel/02_detecting_closed_channel">02_detecting_closed_channel</a></td>
   </tr>
   <tr>
-    <td>Closing Channels in Multiple Goroutines</td>
-    <td><a href="/018_closing_channel/03_closing_channels_in_multiple_goroutines">03_closing_channels_in_multiple_goroutines</a></td>
+      <td>Closing Channels in Multiple Goroutines</td>
+      <td><a href="/018_closing_channel/03_closing_channels_in_multiple_goroutines">03_closing_channels_in_multiple_goroutines</a></td>
   </tr>
   <tr>
-    <td>Sending a Signal with a Closed Channel</td>
-    <td><a href="/018_closing_channel/04_sending_a_signal_with_a_closed_channel">04_sending_a_signal_with_a_closed_channel</a></td>
+      <td>Sending a Signal with a Closed Channel</td>
+      <td><a href="/018_closing_channel/04_sending_a_signal_with_a_closed_channel">04_sending_a_signal_with_a_closed_channel</a></td>
   </tr>
   <tr>
-    <td>Panic When Closing an Already Closed Channel</td>
-    <td><a href="/018_closing_channel/05_panic_when_closing_an_already_closed_channel">05_panic_when_closing_an_already_closed_channel</a></td>
+      <td>Panic When Closing an Already Closed Channel</td>
+      <td><a href="/018_closing_channel/05_panic_when_closing_an_already_closed_channel">05_panic_when_closing_an_already_closed_channel</a></td>
   </tr>
   <tr>
-    <td rowspan="3">Range Over Channels</td>
-    <td>Basic Example with Range Over Channel</td>
-    <td><a href="/019_range_over_channel/001_basic_example_range_over_channel">001_basic_example_range_over_channel</a></td>
+      <td rowspan="3">19</td>
+      <td>Basic Example with Range Over Channel</td>
+      <td><a href="/019_range_over_channel/001_basic_example_range_over_channel">001_basic_example_range_over_channel</a></td>
   </tr>
   <tr>
-    <td>Multiple Goroutines Sending to a Channel</td>
-    <td><a href="/019_range_over_channel/002_multiple_goroutines_sending_to_a_channel">002_multiple_goroutines_sending_to_a_channel</a></td>
+      <td>Multiple Goroutines Sending to a Channel</td>
+      <td><a href="/019_range_over_channel/002_multiple_goroutines_sending_to_a_channel">002_multiple_goroutines_sending_to_a_channel</a></td>
   </tr>
   <tr>
-    <td>Buffered Channels with Range</td>
-    <td><a href="/019_range_over_channel/003_buffered_channels_with_range">003_buffered_channels_with_range</a></td>
+      <td>Buffered Channels with Range</td>
+      <td><a href="/019_range_over_channel/003_buffered_channels_with_range">003_buffered_channels_with_range</a></td>
   </tr>
   <tr>
-    <td rowspan="5">Timer Examples</td>
-    <td>Simple Timer</td>
-    <td><a href="/020_timers/001_simple_timer">001_simple_timer</a></td>
+      <td rowspan="5">20</td>
+      <td>Simple Timer</td>
+      <td><a href="/020_timers/001_simple_timer">001_simple_timer</a></td>
   </tr>
   <tr>
-    <td>Stop Timer</td>
-    <td><a href="/020_timers/002_stop_timer">002_stop_timer</a></td>
+      <td>Stop Timer</td>
+      <td><a href="/020_timers/002_stop_timer">002_stop_timer</a></td>
   </tr>
   <tr>
-     <td>Reset Timer</td>
-     <td><a href="/020_timers/003_reset_timer">003_reset_timer</a></td>
+      <td>Reset Timer</td>
+      <td><a href="/020_timers/003_reset_timer">003_reset_timer</a></td>
   </tr>
   <tr>
-    <td>Using time.After</td>
-    <td><a href="/020_timers/004_using_time_after">004_using_time_after</a></td>
+      <td>Using time.After</td>
+      <td><a href="/020_timers/004_using_time_after">004_using_time_after</a></td>
   </tr>
   <tr>
-    <td>Timer with Select</td>
-    <td><a href="/020_timers/005_timer_with_select">005_timer_with_select</a></td>
+      <td>Timer with Select</td>
+      <td><a href="/020_timers/005_timer_with_select">005_timer_with_select</a></td>
   </tr>
 </table>
+
 
 
 
