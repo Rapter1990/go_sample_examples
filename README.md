@@ -30,7 +30,7 @@
 
 Examples Summary
 
-<table style="width:100%">
+<table>
   <tr>
       <th>Example</th>
       <th>Description</th>
@@ -145,17 +145,39 @@ Examples Summary
   <tr>
     <td rowspan="3">Range Over Channels</td>
     <td>Basic Example with Range Over Channel</td>
-    <td><a href="/019_range_over_channel/001_basic_example_range_over_channel/001_basic_example_range_over_channel.go">001_basic_example_range_over_channel</a></td>
+    <td><a href="/019_range_over_channel/001_basic_example_range_over_channel">001_basic_example_range_over_channel</a></td>
   </tr>
   <tr>
     <td>Multiple Goroutines Sending to a Channel</td>
-    <td><a href="/019_range_over_channel/002_multiple_goroutines_sending_to_a_channel/002_multiple_goroutines_sending_to_a_channel.go">002_multiple_goroutines_sending_to_a_channel</a></td>
+    <td><a href="/019_range_over_channel/002_multiple_goroutines_sending_to_a_channel">002_multiple_goroutines_sending_to_a_channel</a></td>
   </tr>
   <tr>
     <td>Buffered Channels with Range</td>
-    <td><a href="/019_range_over_channel/003_buffered_channels_with_range/003_buffered_channels_with_range.go">003_buffered_channels_with_range</a></td>
+    <td><a href="/019_range_over_channel/003_buffered_channels_with_range">003_buffered_channels_with_range</a></td>
+  </tr>
+  <tr>
+    <td rowspan="5">Timer Examples</td>
+    <td>Simple Timer</td>
+    <td><a href="/020_timers/001_simple_timer">001_simple_timer</a></td>
+  </tr>
+  <tr>
+    <td>Stop Timer</td>
+    <td><a href="/020_timers/002_stop_timer">002_stop_timer</a></td>
+  </tr>
+  <tr>
+     <td>Reset Timer</td>
+     <td><a href="/020_timers/003_reset_timer">003_reset_timer</a></td>
+  </tr>
+  <tr>
+    <td>Using time.After</td>
+    <td><a href="/020_timers/004_using_time_after">004_using_time_after</a></td>
+  </tr>
+  <tr>
+    <td>Timer with Select</td>
+    <td><a href="/020_timers/005_timer_with_select">005_timer_with_select</a></td>
   </tr>
 </table>
+
 
 
 ### Technologies
