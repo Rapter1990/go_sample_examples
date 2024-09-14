@@ -207,6 +207,32 @@ Examples Summary
       <td>Shows how to use timers with the select statement for time-based control flow.</td>
       <td><a href="/020_timers/005_timer_with_select">005_timer_with_select</a></td>
   </tr>
+  <tr>
+      <td rowspan="5">21</td>
+      <td>Basic Ticker</td>
+      <td>Demonstrates how to create and use a basic ticker in Go.</td>
+      <td><a href="/021_tickers/01_basic_ticker">01_basic_ticker</a></td>
+  </tr>
+  <tr>
+      <td>Stop Ticker</td>
+      <td>Shows how to stop a ticker before it triggers the next tick.</td>
+      <td><a href="/021_tickers/02_stop_ticker">02_stop_ticker</a></td>
+  </tr>
+  <tr>
+      <td>Ticker with Select</td>
+      <td>Illustrates how to use the select statement with a ticker for time-based control flow.</td>
+      <td><a href="/021_tickers/03_ticker_with_select">03_ticker_with_select</a></td>
+  </tr>
+  <tr>
+      <td>Reset Ticker</td>
+      <td>Explains how to reset a ticker to its initial state.</td>
+      <td><a href="/021_tickers/04_reset_ticker">04_reset_ticker</a></td>
+  </tr>
+  <tr>
+      <td>Ticker with Limited Ticks</td>
+      <td>Shows how to stop a ticker after a specific number of ticks.</td>
+      <td><a href="/021_tickers/05_ticker_with_limited_ticks">05_ticker_with_limited_ticks</a></td>
+  </tr>
 </table>
 
 
