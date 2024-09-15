@@ -259,6 +259,27 @@ Examples Summary
     <td>Shows how to limit the rate at which jobs are processed in a worker pool.</td>
     <td><a href="/022_worker_pools/005_rate_limited_worker_pool">005_rate_limited_worker_pool</a></td>
   </tr>
+  <tr>
+    <td rowspan="4">23</td>
+    <td>Basic WaitGroup</td>
+    <td>Demonstrates basic usage of `sync.WaitGroup` for synchronizing goroutines.</td>
+    <td><a href="/023_waitgroup/001_basic_waitgroup">001_basic_waitgroup</a></td>
+  </tr>
+  <tr>
+    <td>WaitGroup with Anonymous Functions</td>
+    <td>Shows how to use `sync.WaitGroup` with anonymous functions in goroutines.</td>
+    <td><a href="/023_waitgroup/002_waitGroup_with_anonymous_functions">002_waitGroup_with_anonymous_functions</a></td>
+  </tr>
+  <tr>
+    <td>WaitGroup with Multiple Waits</td>
+    <td>Illustrates using `sync.WaitGroup` to manage multiple stages of goroutines.</td>
+    <td><a href="/023_waitgroup/003_waitgroup_with_multiple_waits">003_waitgroup_with_multiple_waits</a></td>
+  </tr>
+  <tr>
+    <td>WaitGroup with Error Handling</td>
+    <td>Demonstrates using `sync.WaitGroup` with error handling in workers.</td>
+    <td><a href="/023_waitgroup/004_waitgroup_with_error_handling">004_waitgroup_with_error_handling</a></td>
+  </tr>
 </table>
 
 
