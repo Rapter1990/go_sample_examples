@@ -233,6 +233,32 @@ Examples Summary
       <td>Shows how to stop a ticker after a specific number of ticks.</td>
       <td><a href="/021_tickers/05_ticker_with_limited_ticks">05_ticker_with_limited_ticks</a></td>
   </tr>
+  <tr>
+    <td rowspan="5">22</td>
+    <td>Basic Worker Pool</td>
+    <td>Demonstrates how to implement a simple worker pool in Go.</td>
+    <td><a href="/022_worker_pools/001_basic_worker_pool">001_basic_worker_pool</a></td>
+  </tr>
+  <tr>
+    <td>Worker Pool with Buffered Channels</td>
+    <td>Shows how to implement a worker pool with buffered channels.</td>
+    <td><a href="/022_worker_pools/002_worker_pool_with_buffered_channels">002_worker_pool_with_buffered_channels</a></td>
+  </tr>
+  <tr>
+    <td>Worker Pool with Error Handling</td>
+    <td>Illustrates how to handle errors in a worker pool.</td>
+    <td><a href="/022_worker_pools/003_worker_pool_with_error_handling">003_worker_pool_with_error_handling</a></td>
+  </tr>
+  <tr>
+    <td>Dynamic Worker Pool</td>
+    <td>Explains how to create a dynamic worker pool that adjusts based on workload.</td>
+    <td><a href="/022_worker_pools/004_dynamic_worker_pool">004_dynamic_worker_pool</a></td>
+  </tr>
+  <tr>
+    <td>Rate-Limited Worker Pool</td>
+    <td>Shows how to limit the rate at which jobs are processed in a worker pool.</td>
+    <td><a href="/022_worker_pools/005_rate_limited_worker_pool">005_rate_limited_worker_pool</a></td>
+  </tr>
 </table>
 
 
