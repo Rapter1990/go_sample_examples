@@ -280,6 +280,32 @@ Examples Summary
     <td>Demonstrates using `sync.WaitGroup` with error handling in workers.</td>
     <td><a href="/023_waitgroup/004_waitgroup_with_error_handling">004_waitgroup_with_error_handling</a></td>
   </tr>
+  <tr>
+    <td rowspan="5">24</td>
+    <td>Basic Rate Limiter</td>
+    <td>Demonstrates a basic implementation of a rate limiter.</td>
+    <td><a href="/024_rate_limiter/001_basic_rate_limiter">001_basic_rate_limiter</a></td>
+  </tr>
+  <tr>
+    <td>Rate Limiter with Burst Capacity</td>
+    <td>Shows how to implement rate limiting with burst capacity.</td>
+    <td><a href="/024_rate_limiter/002_rate_limiter_burst_capacity">002_rate_limiter_burst_capacity</a></td>
+  </tr>
+  <tr>
+    <td>Custom Rate Limiter Using `time.After`</td>
+    <td>Demonstrates custom rate limiting using `time.After` for more flexibility.</td>
+    <td><a href="/024_rate_limiter/003_custom_rate_limiter_using_time_after">003_custom_rate_limiter_using_time_after</a></td>
+  </tr>
+  <tr>
+    <td>Rate Limiter with `context.Context`</td>
+    <td>Shows how to implement rate limiting using `context.Context` for request cancellation and control.</td>
+    <td><a href="/024_rate_limiter/004_rate_limiter_with_context">004_rate_limiter_with_context</a></td>
+  </tr>
+  <tr>
+    <td>Rate Limiter with `time.NewTicker`</td>
+    <td>Demonstrates rate limiting using `time.NewTicker` for better control over the ticker's lifecycle.</td>
+    <td><a href="/024_rate_limiter/005_rate_limiter_with_time_newticker">005_rate_limiter_with_time_newticker</a></td>
+  </tr>
 </table>
 
 
