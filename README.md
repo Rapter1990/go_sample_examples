@@ -306,6 +306,32 @@ Examples Summary
     <td>Demonstrates rate limiting using `time.NewTicker` for better control over the ticker's lifecycle.</td>
     <td><a href="/024_rate_limiter/005_rate_limiter_with_time_newticker">005_rate_limiter_with_time_newticker</a></td>
   </tr>
+  <tr>
+    <td rowspan="5">25</td>
+    <td>Basic Atomic Counter Using `sync/atomic`</td>
+    <td>Demonstrates a simple atomic counter using the `sync/atomic` package.</td>
+    <td><a href="/025_atomic_counters/001_basic_atomic_counter_using_sync_atomic">001_basic_atomic_counter_using_sync_atomic</a></td>
+  </tr>
+  <tr>
+    <td>Atomic Counter with Decrement and Compare-And-Swap</td>
+    <td>Shows an atomic counter with decrement and compare-and-swap operations.</td>
+    <td><a href="/025_atomic_counters/002_atomic_counter_with_decrement_and_compare_and_swap">002_atomic_counter_with_decrement_and_compare_and_swap</a></td>
+  </tr>
+  <tr>
+    <td>Atomic Flag Using `sync/atomic`</td>
+    <td>Demonstrates the use of an atomic flag for state management with `sync/atomic`.</td>
+    <td><a href="/025_atomic_counters/003_atomic_flag_using_sync_atomic">003_atomic_flag_using_sync_atomic</a></td>
+  </tr>
+  <tr>
+    <td>Atomic Counter with Load and Store Operations</td>
+    <td>Shows how to use atomic load and store operations with counters.</td>
+    <td><a href="/025_atomic_counters/004_atomic_counter_with_load_and_store_operations">004_atomic_counter_with_load_and_store_operations</a></td>
+  </tr>
+  <tr>
+    <td>Atomic Pointer</td>
+    <td>Demonstrates how to atomically load and store a pointer value.</td>
+    <td><a href="/025_atomic_counters/005_atomic_pointer">005_atomic_pointer</a></td>
+  </tr>
 </table>
 
 
