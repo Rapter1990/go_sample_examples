@@ -383,6 +383,57 @@ Examples Summary
     <td>Shows how to use goroutines to sort slices concurrently.</td>
     <td><a href="/026_sorting/010_concurrent_sorting_with_goroutines">010_concurrent_sorting_with_goroutines</a></td>
   </tr>
+  <tr>
+    <td rowspan="10">27</td>
+    <td>Basic Example of Defer</td>
+    <td>Demonstrates the basic usage of the `defer` keyword in Go.</td>
+    <td><a href="/027_panic_and_defer/001_basic_example_of_defer">001_basic_example_of_defer</a></td>
+  </tr>
+  <tr>
+    <td>Multiple Defer</td>
+    <td>Shows how multiple `defer` statements work and their order of execution.</td>
+    <td><a href="/027_panic_and_defer/002_multiple_defer">002_multiple_defer</a></td>
+  </tr>
+  <tr>
+    <td>Defer with Function Call</td>
+    <td>Demonstrates using `defer` with function calls.</td>
+    <td><a href="/027_panic_and_defer/003_defer_with_function_call">003_defer_with_function_call</a></td>
+  </tr>
+  <tr>
+    <td>Basic Example of Panic</td>
+    <td>Shows a basic example of using the `panic` function in Go.</td>
+    <td><a href="/027_panic_and_defer/004_basic_example_of_panic">004_basic_example_of_panic</a></td>
+  </tr>
+  <tr>
+    <td>Panic with Recover</td>
+    <td>Demonstrates how to use `recover` to handle panics and prevent program crashes.</td>
+    <td><a href="/027_panic_and_defer/005_panic_with_recover">005_panic_with_recover</a></td>
+  </tr>
+  <tr>
+    <td>Panic with Defer</td>
+    <td>Shows how `defer` can be used alongside `panic` for resource cleanup.</td>
+    <td><a href="/027_panic_and_defer/006_panic_with_defer">006_panic_with_defer</a></td>
+  </tr>
+  <tr>
+    <td>Chain Panic and Defer</td>
+    <td>Demonstrates chaining of `panic` and `defer` statements to understand their interactions.</td>
+    <td><a href="/027_panic_and_defer/007_chain_panic_and_defer">007_chain_panic_and_defer</a></td>
+  </tr>
+  <tr>
+    <td>Defer Log Functions Exit</td>
+    <td>Shows how to use `defer` to log function exits and track function calls.</td>
+    <td><a href="/027_panic_and_defer/008_defer_log_functions_exit">008_defer_log_functions_exit</a></td>
+  </tr>
+  <tr>
+    <td>Closing Resources with Defer</td>
+    <td>Demonstrates how to use `defer` to ensure resources like files are closed properly.</td>
+    <td><a href="/027_panic_and_defer/009_closing_resources_with_defer">009_closing_resources_with_defer</a></td>
+  </tr>
+  <tr>
+    <td>Defer with HTTPS Requests</td>
+    <td>Shows how to use `defer` to handle HTTP response body cleanup after making requests.</td>
+    <td><a href="/027_panic_and_defer/010_defer_with_https_requests">010_defer_with_https_requests</a></td>
+  </tr>
 </table>
 
 
