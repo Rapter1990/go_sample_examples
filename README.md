@@ -434,6 +434,12 @@ Examples Summary
     <td>Shows how to use `defer` to handle HTTP response body cleanup after making requests.</td>
     <td><a href="/027_panic_and_defer/010_defer_with_https_requests">010_defer_with_https_requests</a></td>
   </tr>
+  <tr>
+    <td>28</td>
+    <td>String Manipulations</td>
+    <td>Demonstrates various string manipulation techniques in Go.</td>
+    <td><a href="/028_string_manipulations/001_string_manipulations">001_string_manipulations</a></td>
+  </tr>
 </table>
 
 
