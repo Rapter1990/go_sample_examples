@@ -332,6 +332,57 @@ Examples Summary
     <td>Demonstrates how to atomically load and store a pointer value.</td>
     <td><a href="/025_atomic_counters/005_atomic_pointer">005_atomic_pointer</a></td>
   </tr>
+  <tr>
+    <td rowspan="10">26</td>
+    <td>Basic Sorting with Integers</td>
+    <td>Demonstrates basic sorting operations with integer slices.</td>
+    <td><a href="/026_sorting/001_basic_sorting_with_integers">001_basic_sorting_with_integers</a></td>
+  </tr>
+  <tr>
+    <td>Sorting Strings</td>
+    <td>Shows how to sort slices of strings.</td>
+    <td><a href="/026_sorting/002_sorting_strings">002_sorting_strings</a></td>
+  </tr>
+  <tr>
+    <td>Sorting by Custom Slice</td>
+    <td>Demonstrates sorting a slice based on custom sorting logic.</td>
+    <td><a href="/026_sorting/003_sorting_by_custom_slice">003_sorting_by_custom_slice</a></td>
+  </tr>
+  <tr>
+    <td>Sorting by Multiple Fields</td>
+    <td>Shows how to sort slices based on multiple fields.</td>
+    <td><a href="/026_sorting/004_sorting_by_multiple_fields">004_sorting_by_multiple_fields</a></td>
+  </tr>
+  <tr>
+    <td>Sorting a Custom Type Using `sort.Interface`</td>
+    <td>Demonstrates sorting a custom type by implementing the `sort.Interface`.</td>
+    <td><a href="/026_sorting/005_sorting_a_custom_type_using_sort_interface">005_sorting_a_custom_type_using_sort_interface</a></td>
+  </tr>
+  <tr>
+    <td>Reverse Sorting</td>
+    <td>Shows how to sort slices in reverse order.</td>
+    <td><a href="/026_sorting/006_reverse_sorting">006_reverse_sorting</a></td>
+  </tr>
+  <tr>
+    <td>Sorting with Custom Comparator Function</td>
+    <td>Demonstrates sorting with a custom comparator function.</td>
+    <td><a href="/026_sorting/007_sorting_with_custom_comparator_function">007_sorting_with_custom_comparator_function</a></td>
+  </tr>
+  <tr>
+    <td>Sorting a Map by Keys</td>
+    <td>Shows how to sort a map by its keys.</td>
+    <td><a href="/026_sorting/008_sorting_a_map_by_keys">008_sorting_a_map_by_keys</a></td>
+  </tr>
+  <tr>
+    <td>Sorting a Map by Values</td>
+    <td>Demonstrates sorting a map by its values.</td>
+    <td><a href="/026_sorting/009_sorting_a_map_by_values">009_sorting_a_map_by_values</a></td>
+  </tr>
+  <tr>
+    <td>Concurrent Sorting with Goroutines</td>
+    <td>Shows how to use goroutines to sort slices concurrently.</td>
+    <td><a href="/026_sorting/010_concurrent_sorting_with_goroutines">010_concurrent_sorting_with_goroutines</a></td>
+  </tr>
 </table>
 
 
