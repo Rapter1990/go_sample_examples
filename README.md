@@ -473,10 +473,7 @@ Examples Summary
   </tr>
   <tr>
     <td rowspan="10">30</td>
-    <td colspan="3">Basic JSON Encoding and Decoding</td>
-  </tr>
-  <tr>
-    <td>Basic JSON Encoding</td>
+    <td>Basic JSON Encoding and Decoding</td>
     <td>Demonstrates basic JSON encoding in Go.</td>
     <td><a href="/030_json/001_basic_encoding_json">001_basic_encoding_json</a></td>
   </tr>
