@@ -440,6 +440,37 @@ Examples Summary
     <td>Demonstrates various string manipulation techniques in Go.</td>
     <td><a href="/028_string_manipulations/001_string_manipulations">001_string_manipulations</a></td>
   </tr>
+  <tr>
+    <td rowspan="6">29</td>
+    <td>Conditional Logic in Templates</td>
+    <td>Demonstrates using conditional logic inside Go templates.</td>
+    <td><a href="/029_text_samples/001_conditional_logic_in_templates">001_conditional_logic_in_templates</a></td>
+  </tr>
+  <tr>
+    <td>Loops in Templates</td>
+    <td>Shows how to use loops to iterate over data in Go templates.</td>
+    <td><a href="/029_text_samples/002_loops_in_templates">002_loops_in_templates</a></td>
+  </tr>
+  <tr>
+    <td>Template Functions</td>
+    <td>Demonstrates using built-in and custom functions in Go templates.</td>
+    <td><a href="/029_text_samples/003_template_functions">003_template_functions</a></td>
+  </tr>
+  <tr>
+    <td>Nested Templates</td>
+    <td>Shows how to use nested templates for organizing reusable templates.</td>
+    <td><a href="/029_text_samples/004_nested_templates">004_nested_templates</a></td>
+  </tr>
+  <tr>
+    <td>Template with Data Formatting</td>
+    <td>Demonstrates formatting data within Go templates, such as dates and numbers.</td>
+    <td><a href="/029_text_samples/005_template_with_data_formatting">005_template_with_data_formatting</a></td>
+  </tr>
+  <tr>
+    <td>Complex Structs and Template Actions</td>
+    <td>Shows how to handle deeply nested struct fields in Go templates using the `with` action.</td>
+    <td><a href="/029_text_samples/006_complex_structs_and_template_actions">006_complex_structs_and_template_actions</a></td>
+  </tr>
 </table>
 
 
