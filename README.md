@@ -471,6 +471,60 @@ Examples Summary
     <td>Shows how to handle deeply nested struct fields in Go templates using the `with` action.</td>
     <td><a href="/029_text_samples/006_complex_structs_and_template_actions">006_complex_structs_and_template_actions</a></td>
   </tr>
+  <tr>
+    <td rowspan="10">30</td>
+    <td colspan="3">Basic JSON Encoding and Decoding</td>
+  </tr>
+  <tr>
+    <td>Basic JSON Encoding</td>
+    <td>Demonstrates basic JSON encoding in Go.</td>
+    <td><a href="/030_json/001_basic_encoding_json">001_basic_encoding_json</a></td>
+  </tr>
+  <tr>
+    <td>Basic JSON Decoding</td>
+    <td>Shows how to decode JSON into Go structs.</td>
+    <td><a href="/030_json/002_basic_decoding_json">002_basic_decoding_json</a></td>
+  </tr>
+  <tr>
+    <td>Handling Nested JSON Structures</td>
+    <td>Demonstrates handling nested JSON structures in Go.</td>
+    <td><a href="/030_json/003_handling_nested_json_structures">003_handling_nested_json_structures</a></td>
+  </tr>
+  <tr>
+    <td>Working with JSON Arrays</td>
+    <td>Shows how to work with JSON arrays in Go.</td>
+    <td><a href="/030_json/004_working_with_json_arrays">004_working_with_json_arrays</a></td>
+  </tr>
+  <tr>
+    <td>Custom JSON Field Names</td>
+    <td>Demonstrates how to use custom JSON field names in Go structs.</td>
+    <td><a href="/030_json/005_custom_json_field_names">005_custom_json_field_names</a></td>
+  </tr>
+  <tr>
+    <td>Omitting Empty Fields</td>
+    <td>Shows how to omit empty fields from JSON encoding.</td>
+    <td><a href="/030_json/006_omitting_empty_fields">006_omitting_empty_fields</a></td>
+  </tr>
+  <tr>
+    <td>Custom JSON Marshaling and Unmarshaling</td>
+    <td>Demonstrates custom marshaling and unmarshaling of JSON data.</td>
+    <td><a href="/030_json/007_custom_json_marshaling_and_unmarshaling">007_custom_json_marshaling_and_unmarshaling</a></td>
+  </tr>
+  <tr>
+    <td>Decoding JSON into a Map</td>
+    <td>Shows how to decode JSON into a map with string keys and interface values.</td>
+    <td><a href="/030_json/008_decoding_json_into_a_map_string_interface">008_decoding_json_into_a_map_string_interface</a></td>
+  </tr>
+  <tr>
+    <td>Decoding JSON with Unknown Fields</td>
+    <td>Demonstrates how to decode JSON while capturing unknown fields into a map.</td>
+    <td><a href="/030_json/009_decoding_json_with_unknown_fields">009_decoding_json_with_unknown_fields</a></td>
+  </tr>
+  <tr>
+    <td>Streaming JSON Encoding</td>
+    <td>Shows how to use streaming JSON encoding with indentation.</td>
+    <td><a href="/030_json/010_streaming_json_encoding">010_streaming_json_encoding</a></td>
+  </tr>
 </table>
 
 
