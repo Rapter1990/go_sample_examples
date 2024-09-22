@@ -18,7 +18,6 @@
       <li>Working with arrays, slices, and maps to demonstrate Go's powerful collection types.</li>
       <li>JSON encoding and decoding examples, including working with custom data structures.</li>
       <li>Error handling following Go idioms to demonstrate best practices for robust programs.</li>
-      <li>Practical examples of using Go's `net/http` package for building RESTful web services.</li>
       <li>Basic data parsing, string manipulation, arithmetic operations, and JSON handling in Go.</li>
     </ul>
   </li>
